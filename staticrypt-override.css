@@ -1,0 +1,174 @@
+/* 
+<link rel="stylesheet" href="staticrypt-override.css"> 
+*/
+
+.staticrypt-hr {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    border: 0 !important;
+    border-top: 1px solid #eee !important;
+}
+
+.staticrypt-page {
+    width: 360px !important;
+    padding: 8% 0 0 !important;
+    margin: auto !important;
+    box-sizing: border-box !important;
+}
+
+.staticrypt-form {
+    position: relative !important;
+    z-index: 1 !important;
+    background: #ffffff !important;
+    max-width: 360px !important;
+    margin: 0 auto 100px !important;
+    padding: 45px !important;
+    text-align: center !important;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24) !important;
+}
+
+.staticrypt-form input[type="password"],
+input[type="text"] {
+    background: inherit !important;
+    border: 0 !important;
+    box-sizing: border-box !important; /* This ensures padding is included in the total width */
+    font-size: 14px !important;
+    outline: 0 !important;
+    padding: 15px 30px 15px 15px !important; /* Adjust the padding to ensure there is space for the icon */
+    width: 100% !important;
+}
+
+.staticrypt-password-container {
+    position: relative !important;
+    outline: 0 !important;
+    background: #f2f2f2 !important;
+    width: 100% !important;
+    border: 0 !important;
+    margin: 0 0 15px !important;
+    box-sizing: border-box !important;
+}
+
+.staticrypt-toggle-password-visibility {
+    cursor: pointer !important;
+    height: 20px !important;
+    opacity: 60% !important;
+    padding: 13px !important;
+    position: absolute !important;
+    right: 0 !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    width: 20px !important;
+}
+
+.staticrypt-form .staticrypt-decrypt-button {
+    text-transform: uppercase !important;
+    outline: 0 !important;
+    background: #0688f2 !important;
+    width: 100% !important;
+    border: 0 !important;
+    padding: 15px !important;
+    color: #ffffff !important;
+    font-size: 14px !important;
+    cursor: pointer !important;
+}
+
+.staticrypt-form .staticrypt-decrypt-button:hover,
+.staticrypt-form .staticrypt-decrypt-button:active,
+.staticrypt-form .staticrypt-decrypt-button:focus {
+    background: #223dc6 !important;
+    filter: brightness(92%) !important;
+}
+
+.staticrypt-html {
+    height: 100% !important;
+}
+
+.staticrypt-body {
+    height: 100% !important;
+    margin: 0 !important;
+}
+
+.staticrypt-content {
+    height: 100% !important;
+    margin-bottom: 1em !important;
+    /* Cool Blue to Purple */
+    background: linear-gradient(135deg, #674cd0 0%, #6dd5ed 100%) !important;
+    transition: background 0.3s ease !important;
+    font-family: "Open Sans", sans-serif !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+    display: flex !important;
+    align-items: flex-start !important;
+    justify-content: center !important;
+    min-height: calc(100vh + 5vh) !important;
+    margin-bottom: 0 !important;
+    transform: translateY(-5vh) !important;  // Shift login screen upward
+}
+
+.staticrypt-instructions {
+    margin-top: -1em !important;
+    margin-bottom: 1em !important;
+}
+
+.staticrypt-title {
+    font-size: 1.5em !important;
+}
+
+label.staticrypt-remember {
+    display: flex !important;
+    align-items: center !important;
+    margin-bottom: 1em !important;
+}
+
+.staticrypt-remember input[type="checkbox"] {
+    transform: scale(1.5) !important;
+    margin-right: 1em !important;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.staticrypt-spinner-container {
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.staticrypt-spinner {
+    display: inline-block !important;
+    width: 2rem !important;
+    height: 2rem !important;
+    vertical-align: text-bottom !important;
+    border: 0.25em solid gray !important;
+    border-right-color: transparent !important;
+    border-radius: 50% !important;
+    -webkit-animation: spinner-border 0.75s linear infinite !important;
+    animation: spinner-border 0.75s linear infinite !important;
+    animation-duration: 0.75s !important;
+    animation-timing-function: linear !important;
+    animation-delay: 0s !important;
+    animation-iteration-count: infinite !important;
+    animation-direction: normal !important;
+    animation-fill-mode: none !important;
+    animation-play-state: running !important;
+    animation-name: spinner-border !important;
+}
+
+@keyframes spinner-border {
+    100% {
+        transform: rotate(360deg) !important;
+    }
+}
+
+#staticrypt_loading {
+    display: none !important;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .staticrypt-form input[type="password"],
+    input[type="text"] {
+        font-size: 16px !important;
+    }
+}
