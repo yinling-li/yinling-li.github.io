@@ -1,7 +1,31 @@
 ![Image text](assets/img/portfolio-hero.png)
 
+### Run Locally
+
+```npm install```
+
+```npm run build```
+
+```jekyyl serve``` or  ```python3 -m http.server 8000```
+
+
+### Release
+
+```staticrypt index-insecure.html```
+
+File will be under ```encrypytion/index_insecure.html ```
+
+you will need to manually add the style override
+
+`<link rel="stylesheet" href="assets/css/staticrypt-override.css">`
+
+and manually replace all text :'(
+
+Then rename the file to `index.html` and save the *old* `index.html` under the name `index-insecure.html`.
+
+
 ### Styleguide
-https://mathieunauleau.com/styleguide.html
+https://yinling-li.com/styleguide.html
 
 
 ### Localization
@@ -10,3 +34,4 @@ https://mathieunauleau.com/styleguide.html
 
 ### License
 [🔗 Based on the Flexstart Bootstrap startup template](https://bootstrapmade.com/flexstart-bootstrap-startup-template/)
+

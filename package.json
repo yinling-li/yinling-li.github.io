@@ -5,7 +5,9 @@
   "devDependencies": {
     "sass": "^1.86.3"
   },
-  "scripts": {  
-    "build:bootstrap": "sass node_modules/bootstrap/scss/bootstrap.scss assets/vendor/bootstrap/css/bootstrap.css" 
-}
+  "scripts": {
+    "clean": "rm -rf _site",
+    "build:bootstrap": "sass node_modules/bootstrap/scss/bootstrap.scss assets/vendor/bootstrap/css/bootstrap.css",
+    "build": "npm run clean && npm run build:bootstrap"
+  }
 }
