@@ -25,7 +25,7 @@ Then rename the file to `index.html` and save the *old* `index.html` under the n
 
 
 ### Styleguide
-https://mathieunauleau.com/styleguide.html
+https://yinling-li.com/styleguide.html
 
 
 ### Localization
