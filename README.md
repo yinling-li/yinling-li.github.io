@@ -1,4 +1,4 @@
-🤠
+🤠😎
 
 ### Run Locally
 
@@ -22,7 +22,6 @@ you will need to manually add the style override
 and manually replace all text :'(
 
 Then rename the file to `index.html` and save the *old* `index.html` under the name `index-insecure.html`.
-
 
 ### Styleguide
 https://yinling-li.com/styleguide.html
