@@ -1,5 +1,5 @@
 /* 
-<link rel="stylesheet" href="staticrypt-override.css"> 
+<link rel="stylesheet" href="assets/css/staticrypt-override.css"> 
 */
 
 .staticrypt-hr {
@@ -102,7 +102,7 @@ input[type="text"] {
     justify-content: center !important;
     min-height: calc(100vh + 5vh) !important;
     margin-bottom: 0 !important;
-    transform: translateY(-5vh) !important;  // Shift login screen upward
+    transform: translateY(-5vh) !important;
 }
 
 .staticrypt-instructions {
