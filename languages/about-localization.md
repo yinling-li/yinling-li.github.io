@@ -14,16 +14,16 @@ Function in google sheet to generate the json (concatenate key + language)
 |---|---|
 |index.html|home.|
 |about.html|about.|
-|ahcompact.html|ahcompact.|
-|carl.html|carl.|
+|dealer.html|dealer.|
+|google-en.html|google-en.|
 |dailyui.html|dailyui.|
-|carl.html|carl.|
-|designsystem.html|system.|
-|island.html|island.|
+|google-en.html|google-en.|
+|women.html|women.|
+|fitness.html|fitness.|
 |kumiko.html|kumiko.|
 |rise.html|rise.|
-|sketching.html|carl.|
-|whitelabel.html|whitelabel.|
+|radius.html|google-en.|
+|assist.html|assist.|
 |404.html|404.|
 
 | localization | key |
