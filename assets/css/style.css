@@ -14,16 +14,16 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #c6acac;
 }
 
 a {
-  color: #4154f1;
+  color: #ff7142;
   text-decoration: none;
 }
 
 a:hover {
-  color: #717ff5;
+  color: #ff7142;
   text-decoration: none;
 }
 
@@ -34,6 +34,11 @@ h4,
 h5,
 h6 {
   font-family: "Nunito", sans-serif;
+}
+
+/* Add rule for h5 headers */
+h5 {
+  color: #ff7142;
 }
 
 /*--------------------------------------------------------------
@@ -54,7 +59,7 @@ section {
   letter-spacing: 1px;
   font-weight: 700;
   margin: 0;
-  color: #4154f1;
+  color: #ff7142;
   text-transform: uppercase;
 }
 
@@ -135,7 +140,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: #4154f1;
+  background: #ff7142;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -247,7 +252,7 @@ section {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #4154f1;
+  color: #fd5b25;
 }
 
 .navbar .getstarted,
@@ -549,7 +554,7 @@ section {
 .about h3 {
   font-size: 14px;
   font-weight: 700;
-  color: #4154f1;
+  color: #ff7142;
   text-transform: uppercase;
 }
 
@@ -689,7 +694,7 @@ section {
 }
 
 .features .feature-box:hover i {
-  background: #4154f1;
+  background: #ff7142;
   color: #fff;
 }
 
@@ -724,11 +729,14 @@ section {
   margin-right: 25px;
   margin-bottom: -2px;
   border-radius: 0;
+  text-transform: uppercase;
 }
 
 .features .feture-tabs .nav-link.active {
   color: #4154f1;
   border-bottom: 3px solid #4154f1;
+  text-transform: uppercase;
+
 }
 
 .features .feture-tabs .tab-content h4 {
