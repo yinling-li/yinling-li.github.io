@@ -9,7 +9,8 @@
   "scripts": {
     "clean": "rm -rf _site",
     "build:bootstrap": "sass node_modules/bootstrap/scss/bootstrap.scss assets/vendor/bootstrap/css/bootstrap.css",
-    "build": "npm run clean && npm run build:bootstrap",
+    "copy": "mkdir -p _site && cp -r index.html about.html assets js languages *.html _site/",
+    "build": "npm run clean && npm run build:bootstrap && npm run copy",
     "dev": "browser-sync start --server --files '**/*.html, **/*.css, **/*.js, **/*.json'"
   }
 }
