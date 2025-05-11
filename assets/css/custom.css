@@ -634,7 +634,7 @@ section {
 .img-box2 {
   height: 100%;
   /* background-color: var(--color-information); */
-  background-image: url(assets/img/portfolio/project2/what-is-design-women.png);
+  background-image: url(assets/img/portfolio/project2/what-is-design-womPersona_EN.png);
   background-size: contain;
   background-repeat: no-repeat;
   padding: 0;
@@ -1018,4 +1018,24 @@ section {
 
 .social-links i {
   font-size: 10rem;  /* Adjust as desired */
+}
+
+.persona-spacing {
+    margin-bottom: 1rem; /* adjust value as needed */
+}
+
+/* Override h5 header color */
+h5 {
+  color: #ff7142 !important;
+}
+
+.nav-link.scrollto {
+  color: #012970; /* text color */
+  text-transform: uppercase; /* display text in all caps */
+  transition: color 0.3s ease;
+  font-weight: bold;
+}
+
+.nav-link.scrollto:hover {
+  color: #ff7142;
 }

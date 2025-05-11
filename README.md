@@ -6,8 +6,7 @@
 
 ```npm run build```
 
-```jekyyl serve``` or  ```python3 -m http.server 8000```
-
+```npm run dev```
 
 ### Release
 
